@@ -1,6 +1,11 @@
 # DATE_TIME_USERBOT
 
 
+<p align="center">
+<img src="https://telegra.ph/file/577fd708b51a9c60053f7.jpg">
+<p>
+
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/Sinan-M-116/DATE_TIME_USERBOT?color=blue&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/Sinan-M-116/DATE_TIME_USERBOT?color=green&style=flat)
 ![GitHub issues](https://img.shields.io/github/issues/Sinan-M-116/DATE_TIME_USERBOT)
@@ -25,13 +30,9 @@ An Telegram Bot By [@Pythone_3](https://t.me/Pythone_3)
 3. `SESSION_NAME` : A valid Pyrogram session name
 4. `TIME_ZONE`: Your time zone (Example: Asia/Kolkata)
 
-<p align="center">
-<img src="https://telegra.ph/file/577fd708b51a9c60053f7.jpg">
-<p>
- 
-## Deployment Methods
 
-### Heroku
+ 
+### replay to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sinan-m-116/DATE_TIME_USERBOT)
     
