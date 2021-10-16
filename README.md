@@ -16,3 +16,26 @@
 [![Bot Support](https://img.shields.io/badge/my%20-support%20robot-red)](https://t.me/SINANzz_private_BOT)
 
 An Telegram Bot By [@Pythone_3](https://t.me/Pythone_3) 
+
+
+
+## Config Vars
+1. `API_ID` : Telegram API_ID, get it from my.telegram.org/apps
+2. `API_HASH` : Telegram API_ID, get it from my.telegram.org/apps
+3. `SESSION_NAME` : A valid Pyrogram session name
+4. `TIME_ZONE`: Your time zone (Example: Asia/Kolkata)
+
+<p align="center">
+<img src="https://telegra.ph/file/577fd708b51a9c60053f7.jpg">
+<p>
+ 
+## Deployment Methods
+
+### Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sinan-m-116/DATE_TIME_USERBOT)
+    
+## Credits
+
+[Sinan coder](https://GitHub.com/sinan-m-coder)
+[Sinan m 116](https://GitHub.com/sinan-m-116)
