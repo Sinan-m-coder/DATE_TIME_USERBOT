@@ -33,7 +33,7 @@ async def main_sinzz():
                 Time_sinzz = TimeZone_sinzz.strftime("%I:%M %p")
                 Date_sinzz = TimeZone_sinzz.strftime("%b %d") 
                 Image_sinzz = Image.open("image.jpg")
-                Image_font_sinzz = ImageFont.truetype("ds-digit.ttf", 360)
+                Image_font_sinzz = ImageFont.truetype("439415", 360)
                 Image_text_sinzz = f"{Time_sinzz}"
                 Image_edit_sinzz = ImageDraw.Draw(Image_sinzz)
                 Image_edit_sinzz.text((690, 550), Image_text_sinzz, (0, 255, 255), font = Image_font_sinzz)
