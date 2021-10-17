@@ -2,7 +2,7 @@
 #You are free to use this code in any of your project, but you MUST include the following in your README.md (Copy & paste)
 # ##Credits - [DATE_TIME Telegram userbot by TeLe TiPs] (https://github.com/sinan-m-116/DATE_TIME_USERBOT)
 
-# Changing the code is not allowed! Read GNU AFFERO GENERAL PUBLIC LICENSE: https://github.com/teletips/DATE_TIME_USERBOT-TeLeTiPs/blob/main/LICENSE
+# Changing the code is not allowed! Read GNU AFFERO GENERAL PUBLIC LICENSE: https://github.com/sinan-m-coder/DATE_TIME_USERBOT/blob/main/LICENSE
 
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
@@ -36,9 +36,9 @@ async def main_sinzz():
                 Image_font_teletips = ImageFont.truetype("439415", 360)
                 Image_text_teletips = f"{Time_teletips}"
                 Image_edit_teletips = ImageDraw.Draw(Image_teletips)
-                Image_edit_teletips.text((690, 550), Image_text_teletips, (0, 255, 255), font = Image_font_sinzz)
-                Image_sinzz.save("Image_final_teletips.jpg")
-                await Date_Time_Userbot_teletips.update_profile(bio = f"{Emojis_sinzz} {Quotes_sinzz}" , last_name = f"| ⏰ {Time_sinzz} | 📅 {Date_sinzz}")
+                Image_edit_teletips.text((690, 550), Image_text_teletips, (0, 255, 255), font = Image_font_teletips)
+                Image_teletips.save("Image_final_teletips.jpg")
+                await Date_Time_Userbot_teletips.update_profile(bio = f"{Emojis_teletips} {Quotes_teletips}" , last_name = f"| ⏰ {Time_sinzz} | 📅 {Date_sinzz}")
                 await Date_Time_Userbot_teletips.set_profile_photo(photo="Image_final_teletips.jpg")
                 me = await Date_Time_Userbot_teletips.get_me()
                 photos = await Date_Time_Userbot_teletips.get_profile_photos("me")
